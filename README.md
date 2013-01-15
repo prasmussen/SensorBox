@@ -7,6 +7,9 @@ SensorBox is a hardware device used to log various data in my home. It consists 
 and currently has sensors to log motion, temperature and humidity. The Arduino logs motion events and 
 temperature/humidity changes directly to a CouchDB as JSON data.
 
+## Requirements
+- [Arduino DHT-sensor-library](https://github.com/adafruit/DHT-sensor-library)
+- [CouchDB Server](http://couchdb.apache.org/)
 
 ## Parts list
 - [Arduino Ethernet with PoE module](http://store.arduino.cc/ww/index.php?main_page=product_info&cPath=11_12&products_id=142)
