@@ -14,7 +14,7 @@ temperature/humidity changes directly to a CouchDB as JSON data.
 - [AM2302 (wired DHT22) temperature-humidity sensor](http://adafruit.com/products/393)
 
 
-## Example data from CouchDB (the 'created' timestamp is added by a update handler)
+## Example data from CouchDB
 ###### Movement event
     {
        "_id": "a631c192ffebb7b0d543863925f3a53a",
